@@ -27,7 +27,7 @@ get_next_line을 사용하여 여러 개의 파일 디스크립터를 관리할 
 - get_next_line_utils_bonus.c
 - get_next_line_bonus.h
 
-## Examples of use
+## Example of execution
 
 **a.txt**
 ```
