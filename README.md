@@ -12,20 +12,31 @@
 | **사용된 <br>외부 함수** | `read, malloc, free` |
 | **설명** | 파일 디스크립터로부터 한 줄을 읽고, <br>반환하는 함수. |
 
+<details>
+<summary>files</summary>
+<div markdown="1">       
 
-**files**
 - get_next_line.c
 - get_next_line_utils.c
 - get_next_line.h
+
+</div>
+</details>
 
 ## Bonus part
 
 get_next_line을 사용하여 여러 개의 파일 디스크립터를 관리할 수 있게 구현. 예를 들어, 파일 디스크립터 3, 4, 5에 접근 가능한 경우, get_next_line은 각 디스크립터의 리딩 스레드를 잃지 않은 채로 3에서 한 번, 4에서 한 번, 다시 3에서 한 번, 5에서 한 번 호출될 수 있다.
 
-**files**
+<details>
+<summary>files</summary>
+<div markdown="1">       
+
 - get_next_line_bonus.c
 - get_next_line_utils_bonus.c
 - get_next_line_bonus.h
+
+</div>
+</details>
 
 ## Example of execution
 
